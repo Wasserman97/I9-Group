@@ -1,0 +1,19 @@
+This is a simple alarm application that displays a custom message at a specific time. It reads the time and message settings from a config.ini file, and when the specified time is reached, it displays a message dialog.
+
+How to Use
+Make sure you have Python installed on your system.
+Edit the config.ini file with the desired time and the message you want to be displayed.
+Run the alarm.py script.
+The script will regularly check if the current time matches the configured time. When it matches, an alarm message will be displayed.
+Configuration File (config.ini)
+The config.ini file contains the settings for the alarm application. You can customize the time and message by editing this file.
+
+Example config.ini:
+[hour]
+time = 14:32
+
+[message]
+text = COFFEE TIME!!!!
+
+Dependencies
+This application doesn't require any external libraries apart from Python's standard libraries.
