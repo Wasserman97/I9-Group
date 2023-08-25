@@ -15,5 +15,4 @@ time = 14:32
 [message]
 text = COFFEE TIME!!!!
 
-Dependencies
-This application doesn't require any external libraries apart from Python's standard libraries.
+
